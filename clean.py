@@ -47,7 +47,7 @@ def detect_language(text):
         return False
 
 
-df = pd.read_csv("data898.csv")
+df = pd.read_csv("data.csv")
 df = df[df['Comments'].str.strip().astype(bool)]
 
 df.dropna(inplace=True)
