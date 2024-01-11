@@ -2,7 +2,7 @@
 
 ## Overview:
 The "YouTube Comments Classifier" project focuses on collecting comments from specified YouTube channels, cleaning and preprocessing the data, and then using machine learning and deep learning models to predict labels for these comments. The project consists of three main files: scrap.py, clean.py, and model.py.
-*Note that the labels for the data were added manually to avoid misclassification. the comment such as "Poor Ben" does not classify as a negative or positive comment. Hence the neutral or class 0 was added*
+ - *Note that the labels for the data were added manually to avoid misclassification. the comment such as "Poor Ben" does not classify as a negative or positive comment. Hence the neutral or class 0 was added*
 
 ## scrap.py
 Description: The scraping script uses Selenium and BeautifulSoup to collect comments from predefined YouTube channels. It also performs data cleaning, language filtering, and exports the data to CSV files. It performs the following tasks:
