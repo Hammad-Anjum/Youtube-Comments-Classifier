@@ -6,9 +6,11 @@ The "YouTube Comments Classifier" project focuses on collecting comments from sp
 ## scrap.py
 Description: The scraping script uses Selenium and BeautifulSoup to collect comments from predefined YouTube channels. It also performs data cleaning, language filtering, and exports the data to CSV files. It performs the following tasks:
 
-### Web Driver Initialization: Initializes a Chrome web driver using Selenium.
+### Web Driver Initialization: 
+Initializes a Chrome web driver using Selenium.
 
-### YouTube Channels: Specifies a list of YouTube channel URLs to scrape comments from.
+### YouTube Channels: 
+Specifies a list of YouTube channel URLs to scrape comments from.
 
 ### Scraping Process:
 Visits each channel URL.
