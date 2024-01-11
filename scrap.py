@@ -90,6 +90,6 @@ df['IsEnglish'] = df['Comments'].apply(detect_language)
 df = df[df['IsEnglish']]  # Keep only rows where 'IsEnglish' column is True
 
 df.drop(columns=['IsEnglish'], inplace=True)
-df.to_csv("data2.csv")
+df.to_csv("data.csv")
 
 print(df.head())
